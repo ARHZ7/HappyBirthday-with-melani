@@ -170,8 +170,8 @@ new TypeIt("#teks2", {
 
 new TypeIt("#trims", {
   strings: ["Terimakasih sudah bertahan."],
-  startDelay: 2000,
-  speed: 150,
+  startDelay: 1500,
+  speed: 400,
   loop: false,
   waitUntilVisible: true,
 }).go();
@@ -446,3 +446,4 @@ function confetti() {
 
   if (!onlyOnKonami) poof();
 };
+
